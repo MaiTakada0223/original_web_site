@@ -1,0 +1,86 @@
+header {
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f582ae;
+}
+
+.logo img {
+    height: 100px;
+    margin: 0 0 0 20px;
+}
+
+.careea {
+    background-color: #fef6e4;
+    /* display: flex;
+    justify-content: column;
+    align-items: center; */
+    height: 30%;
+}
+
+.careeaphot{
+    position: relative;
+    object-view-box: inset(270px 100px 385px 100px); 
+    width: 60%;
+    margin: 0 0 0 30px
+}
+
+.syokureki { 
+    background-color: #fef6e4;
+    height: 700px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 0px 0px 30px;
+    background-image : url(../img/careea/careea.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: -30px 70px;
+}
+
+.container {
+    position: relative;
+    width: 45%;
+    height: auto;
+    background-color: #fef6e4;
+}
+
+.background { 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    object-view-box: inset(180px 100px 180px 150px); 
+}
+
+.foreground {
+    position: absolute;
+    top: 17%;
+    left: 4.8%;
+}
+
+.gakureki {
+    width: 46%;
+    position: relative;
+    margin: 30px 0px 0px 40px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+
+.shokugyou{
+    width: 60%;
+    height: 30%;
+    /* padding:  0 0 80px;
+    font-size: 25px; */
+}
+
+.footer {
+    height: 80px;
+    text-align: center;
+    background-color: #001858;
+    color: #f582ae;
+    padding: 28px ;
+    font-size: 20px;
+}

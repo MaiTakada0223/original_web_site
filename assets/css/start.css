@@ -1,0 +1,39 @@
+#opv-wrap {
+    display: none;
+  }
+  
+  video#opv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    vertical-align: bottom;
+  }
+  
+  header {
+    display: none;
+  }
+
+  main {
+    display: none;
+  }
+
+  
+  #mv {
+    height: 100vh;
+    background-color: rgb(216, 251, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-conts {
+    padding: 4%;
+    height: 100vh;
+  }
+  
+  .section-conts h2 {
+    text-align: center;
+  }

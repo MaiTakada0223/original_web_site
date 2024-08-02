@@ -1,0 +1,35 @@
+header {
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f582ae;
+}
+
+.MAI {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+}
+.logo img {
+    height: 100px;
+    margin: 0 0 0 20px;
+}
+
+.footer {
+    height: 80px;
+    text-align: center;
+    background-color: #001858;
+    color: #f582ae;
+    padding: 28px ;
+    font-size: 20px;
+}

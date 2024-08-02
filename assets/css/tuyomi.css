@@ -1,0 +1,100 @@
+
+header {
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f582ae;
+}
+
+.logo img {
+    height: 100px;
+    margin: 0 0 0 20px;
+}
+
+.footer {
+    height: 80px;
+    text-align: center;
+    background-color: #001858;
+    color: #f582ae;
+    padding: 28px ;
+    font-size: 20px;
+}
+
+/* .tuyomi > img{
+    width: 100%;
+} */
+
+/* #toggle {
+    display: none;
+    width: 100%;
+  }
+  
+  #toggle + .label::after {
+    content: url("/assets/img/tuyomi/上のビフォー.png");
+  }
+  
+
+  #toggle:checked + .label::after {
+    content: url("/assets/img/tuyomi/上のアフター.png");
+  }
+
+  #toggle2 {
+    display: none;
+    /* width: 100%; */
+  /* }
+  
+  #toggle2 + .label2::after {
+    content: url("/assets/img/tuyomi/したのビフォー.png");
+  }
+  
+  #toggle2:checked + .label2::after {
+    content: url("/assets/img/tuyomi/下のアフター.png");
+  } */
+ 
+  #div1 {
+    background-image: url('/assets/img/tuyomi/上のビフォー.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; /* 画像を画面いっぱいに拡大縮小 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+  }
+
+  #div1:hover {
+    background-image: url('/assets/img/tuyomi/上のアフター.png');
+  }
+
+
+/* 
+  #div1:active {
+    background-image: url('/assets/img/tuyomi/上のアフター.png');
+    width: 800px;
+    height: auto;
+  } */
+
+  #div2 {
+    background-image: url('/assets/img/tuyomi/したのビフォー.png');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover; /* 画像を画面いっぱいに拡大縮小 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+  }
+
+  #div2:hover {
+    background-image: url('/assets/img/tuyomi/したのアフター.png');
+    /* width: 800px;
+    height: auto; */
+  }
+
+  /* .kurohand {
+    position: absolute;
+    left: 74%;
+    top: 45%;
+}
+  .shirohand {
+    position: absolute;
+    left: 40%;
+    top: 152%;
+  } */
